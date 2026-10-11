@@ -1,0 +1,4 @@
+checking will it create a new file
+Now i'll create a link with this file and validate the link commands
+created hardlink and now editing file to check link is working or not
+changed the name of file and checking is link will work or not

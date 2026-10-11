@@ -1,0 +1,118 @@
+
+1. Introduction to Linux
+Linux is an open-source operating system widely used
+in servers, cloud computing, and software development.
+It provides a command-line interface to interact with
+the system using different commands.
+
+2. File and Directory Commands
+The pwd command displays the present working directory.
+The ls command lists files and directories.
+The cd command is used to change directories.
+The mkdir command creates a new directory.
+The touch command creates an empty file.
+The cp command copies files and directories.
+The mv command moves or renames files.
+The rm command removes files and directories.
+
+3. File Viewing Commands
+The cat command displays the complete contents of a file.
+The head command displays the first ten lines by default.
+The tail command displays the last ten lines by default.
+The more command displays file content one screen at a time.
+The less command allows forward and backward navigation.
+These commands are useful when working with large files.
+
+4. User Management
+The useradd command creates a new user.
+The passwd command changes a user's password.
+The usermod command modifies an existing user account.
+The userdel command deletes a user account.
+The id command displays user and group information.
+The whoami command displays the current username.
+
+5. Group Management
+The groupadd command creates a new group.
+The groupdel command deletes a group.
+The groups command displays group memberships.
+The getent group command displays information about groups.
+Users can belong to multiple supplementary groups.
+A user's primary group is assigned to their account.
+
+6. File Permissions
+Linux permissions control access to files and directories.
+The chmod command changes file permissions.
+The chown command changes file ownership.
+The chgrp command changes group ownership.
+Permissions include read, write, and execute.
+The symbols r, w, and x represent these permissions.
+
+7. Searching Files
+The find command searches for files and directories.
+The grep command searches for text inside files.
+The grep -r command searches directories recursively.
+The grep -l command displays filenames with matches.
+The locate command can find files using an indexed database.
+
+8. Process Management
+The ps command displays information about processes.
+The top command displays running processes dynamically.
+The kill command sends a signal to a process.
+The jobs command displays jobs in the current shell.
+The bg command resumes a job in the background.
+The fg command brings a job to the foreground.
+
+9. Disk and Memory Information
+The df command displays filesystem disk space.
+The du command estimates file and directory disk usage.
+The free command displays RAM and swap usage.
+The free -h command displays memory in readable units.
+The uptime command shows how long the system has been running.
+
+10. Networking Commands
+The ping command tests network connectivity.
+The ip addr command displays network interface addresses.
+The hostname command displays the system hostname.
+The ss command displays socket information.
+The curl command transfers data using URLs.
+
+11. Text Processing
+The awk command processes text using fields and patterns.
+The sed command performs text transformations.
+The cut command extracts selected fields.
+The sort command sorts lines of text.
+The uniq command identifies adjacent duplicate lines.
+The wc command counts lines, words, and bytes.
+The tr command translates or deletes characters.
+
+12. Redirection and Pipes
+The greater-than symbol redirects output to a file.
+The double greater-than symbol appends output.
+The pipe symbol sends one command's output to another.
+The less-than symbol redirects input from a file.
+The tee command writes output to a file and the terminal.
+
+13. Package Management
+Package managers install and remove software.
+Ubuntu uses tools such as apt.
+RHEL-based systems commonly use dnf or yum.
+Always check the package name before installing software.
+Administrative privileges may be required for installation.
+
+14. System Administration
+The date command displays the current date and time.
+The cal command displays a calendar.
+The uname command displays system information.
+The hostnamectl command displays hostname details.
+The systemctl command manages system services.
+The journalctl command displays system journal logs.
+
+15. Conclusion
+Linux commands help administrators manage users, files,
+permissions, processes, memory, and network connections.
+Practicing these commands regularly improves confidence.
+Use the manual pages with the man command to learn
+about available options and examples for each command.
+
+End of Linux Commands Practice File.
+EOF
