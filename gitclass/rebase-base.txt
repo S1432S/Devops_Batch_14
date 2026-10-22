@@ -1,1 +1,2 @@
 Base branch first commit
+Base branch second commit
